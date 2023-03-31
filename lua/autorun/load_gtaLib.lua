@@ -18,18 +18,18 @@ end
 
 if ( SERVER ) then
 	-- Load Shared Files
-	GtaLib:AddFile("gta_fw/shared/",true)
-	GtaLib:AddFile("gta_fw/shared/",false)
+	GtaLib:AddFile("gta_lib/shared/",true)
+	GtaLib:AddFile("gta_lib/shared/",false)
 
 	-- Load Server Files
-	GtaLib:AddFile("gta_fw/server/",true)
+	GtaLib:AddFile("gta_lib/server/",true)
 
 	-- Load Client Files
-	GtaLib:AddFile("gta_fw/client/",false)
+	GtaLib:AddFile("gta_lib/client/",false)
 
 	return
 end
 
-GtaLib:AddFile("gta_fw/shared/",true)
+GtaLib:AddFile("gta_lib/shared/",true)
 
-GtaLib:AddFile("gta_fw/client/",true)
+GtaLib:AddFile("gta_lib/client/",true)
